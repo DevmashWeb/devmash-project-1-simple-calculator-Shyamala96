@@ -1,0 +1,37 @@
+.container{
+	background-color: grey;
+	height: 250px;
+	width: 200px;
+	border-radius: 2px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.result{
+	display: block;
+	width:150px;
+    height:20px;
+    margin:5px auto;
+    text-align:right;
+    border:0;
+    background:#3b3535;
+    color:#fff;
+    padding-top:20px;
+    font-size:20px;
+    padding-bottom: 
+    outline: none;
+    overflow: hidden;
+    letter-spacing: 4px;
+    position: relative;
+    top:10px;
+}
+
+.keys{
+    background:#E5E4E2;
+    color:#fff;
+    font-size:26px;
+    cursor:pointer;
+    outline:none;
+    padding-bottom: 5px;
+}

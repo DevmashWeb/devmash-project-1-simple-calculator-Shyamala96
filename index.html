@@ -1,35 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>
-        Your Title here
-    </title>
-    <meta content="" name="description">
-    <meta content="" name="author">
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" name="viewport" />
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/skeleton.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="images/favicon.png" rel="icon" type="image/png">
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
-
 <body>
-    <!-- Content
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div align="center">
+<div class="container">
+<div class="display">
+<form name="calc">
+<input name="result" width="20px" height="20">
+<p>
+<input type="button" name="1" value="1"	onclick="key1()"/>
+<input type="button" name="2" value="2"	onclick="key2()">
+<input type="button" name="3" value="3"	onclick="key3()">
+<input type="button" name="plus" value="+"	onclick="keyplus()">
+</p>
+<p>
+<input type="button" name="4" value="4"	onclick="key4()">
+<input type="button" name="5" value="5"	onclick="key5()">
+<input type="button" name="6" value="6"	onclick="key6()">
+<input type="button" name="minus" value="-"	onclick="keyminus()">
+</p>
+<p>
+<input type="button" name="7" value="7"	onclick="key7()">
+<input type="button" name="8" value="8"	onclick="key8()">
+<input type="button" name="9" value="9"	onclick="key9()">
+<input type="button" name="multi" value="*"	onclick="keymulti()">
+</p>
+<p>
+<input type="button" name="Clear" value="C"	onclick="keyclear()">
+<input type="button" name="0" value="0"	onclick="keyzero()">
+<input type="button" name="equal" value="="	onclick="keyeval()">
+<input type="button" name="div" value="/"	onclick="keydiv()">
+</p>
+</form>
+</div>
+</div>
+</div>
 
+<script type="text/javascript" src="script.js"></script>
 
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-
 </html>
